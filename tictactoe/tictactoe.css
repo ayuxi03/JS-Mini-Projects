@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+}
+
+body {
+  background-color: #64953e;
+  text-align: center;
+}
+
+.container {
+  height: 70vh; /* 70% of viewport height -> container will have 70% of page space  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 50vmin; /* 50% of the viewport's smaller dimension */
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  font-size: 8vmin;
+  color: #f94144;
+  background-color: #e8f9a5;
+}
+
+#reset-btn {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #081c15;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 2vmin;
+}
+
+#new-btn {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #081c15;
+  color: white;
+  border-radius: 1rem;
+  border: none;
+}
+
+#msg {
+  color: #ffffff;
+  font-size: 5vmin;
+  text-shadow: -1px -1px 5px rgb(252, 244, 1);
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+/*coolor website for colors*/
