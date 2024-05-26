@@ -16,6 +16,10 @@ h2 {
   text-align: center;
 }
 
+p {
+  font-weight: 600;
+}
+
 .container {
   background-color: white;
   padding: 2rem;
